@@ -26,6 +26,8 @@ print("mean squared error is : ",mean_squared_error(Data_y_test,Var))
 print("Weights: ",Model.coef_)
 print("Intercept: ",Model.intercept_)
 
+
 plt.scatter(Data_x_test,Data_y_test)
 
 plt.plot()
+plt.show()
