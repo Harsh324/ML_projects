@@ -1,0 +1,52 @@
+1. model = GradientBoostingRegressor()
+
+Mean:  60.63606396090796
+Standard deviation:  7.532282464369207
+
+
+
+2. model = DecisionTreeRegressor()
+
+Mean:  83.81023245456251
+Standard deviation:  9.200936772932172
+
+
+
+3. model = LinearRegression()
+
+Mean:  55.63311220404553
+Standard deviation:  4.952949626276783
+
+
+
+4. model = RandomForestRegressor()
+
+Mean:  58.54048008064101
+Standard deviation:  7.612461957544235
+
+
+
+5. model = KernelRidge()
+
+Mean:  163.84109936172302
+Standard deviation:  13.0995502685399
+
+
+
+6. model = ElasticNet()
+
+Mean:  77.25309393043293
+Standard deviation:  10.267659937532317
+
+
+
+7. model = BayesianRidge()
+
+Mean:  55.606689399775746
+Standard deviation:  4.729390447768342
+
+
+8. model = SVR()
+
+Mean:  71.57762221238906
+Standard deviation:  11.584367225405945
