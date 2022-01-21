@@ -48,7 +48,7 @@ def Model_Selection(Model,Data_list, name):
 
 
 ## Taking Data in dataframe
-Data = pd.read_csv(r'diabetes.csv')
+Data = pd.read_csv('diabetes.csv')
 
 ## This line print the number of 0 and 1 values in the Outcome columns
 #print(Data.Outcome.value_counts())
@@ -64,7 +64,7 @@ Correlation['Outcome'].sort_values(ascending = False)
 
 ## Plotting the correlation of features with the label(outcome)
 sns.pairplot(Data, hue='Outcome', plot_kws=dict(alpha=.3, edgecolor='none'), height=2, aspect=1.1)
-sns.pairplot(Data.dropna(), vars = ['Glucose', 'Insulin','BMI','SkinThickness'], size= 2.0, diag_kind='kde', hue='Outcome')
+sns.pairplot(Data.dropna(), vars = ['Glucose', 'Insulin','BMI','SkinThickness'], height= 2.0, diag_kind='kde', hue='Outcome')
 
 ## Dropping the outcome from the dataframe
 Data_Features = Data.drop('Outcome', axis = 1)
